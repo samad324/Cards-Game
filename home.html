@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>memory game demo</title>
+</head>
+
+<body>
+
+    <header class="py-2">
+        <h1 class="text-center text-white">Memory Card Game </h1>
+    </header>
+
+    <section>
+        <div class="container d-flex flex-row justify-content-between px-3 my-5 text-white">
+            <div>
+                <h3>Player 1</h3>
+                <h5>
+                    Score: <b id="player1Score"></b>
+                </h5>
+            </div>
+            <div>
+                <h5>
+                    Player: <b id="player"></b>
+                </h5>
+            </div>
+            <div>
+                <h3>Player 2</h3>
+                <h5>Score: <b id="player2Score"></b></h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="container text-center">
+        <button class="btn btn-lg btn-warning cstmBtn" id="startButton">START</button>
+    </section>
+    <section class="text-white text-center my-5">
+        <h1>Cards here...</h1>
+    </section>
+    <div class="container">
+        <div class="row justify-content-center mt-5 pt-5" id="cardshowcase">
+
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="container">
+        <h1 class="text-white text-center my-5 pt-5">Eliminated Cards</h1>
+        <div class="row justify-content-center" id="eliminatedCardShowcase">
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/home.js"></script>
+
+</html>
